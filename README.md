@@ -10,6 +10,7 @@ docker pull mysql:5.7
 ## 2. 准备MySQL配置文件
 
 创建如下图所示目录：
+
 ![avatar](./目录结构.png)
 
 在master/conf/my.conf和slave/conf/my.conf中分别写入如下内容：
