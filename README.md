@@ -80,7 +80,7 @@ mysql> create database XXXXX default character set utf8mb4;
 ```
 再获取status, 得到类似如下的输出:
 ```
-mysql> show master status /G;
+mysql> show master status \G;
 *************************** 1. row ***************************
 File: log.00003
 Position: 1035
@@ -107,7 +107,7 @@ mysql> start slave;
 ```
 再获取status, 正常应该得到类似如下的输出:
 ```
-mysql> show slave status /G;
+mysql> show slave status \G;
 // ...
 Slave_IO_Running: Yes 
 Slave_SQL_Running: Yes 
